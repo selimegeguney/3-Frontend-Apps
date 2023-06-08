@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.contain {
+  width: 30rem;
+  margin: auto;
+}
+#clear-btn {
+  margin: auto;
+}
+section {
+  border: 1px solid white;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 0 5px 1px grey;
+}
+input {
+  border-radius: 4px;
+  padding: 0.4rem;
+}
+.add-list {
+  border: 2px solid rgb(0, 255, 179);
+  border-radius: 4px;
+}
+.added-item {
+  border: 1px solid rgb(0, 255, 195);
+  border-radius: 4px;
+}
+.trash:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+.empty {
+  height: 1.75rem;
+}

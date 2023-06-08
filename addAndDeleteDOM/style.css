@@ -1,0 +1,60 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  margin-bottom: 1.3rem;
+}
+h1 {
+  font-family: "Patrick Hand SC", cursive;
+}
+body {
+  height: 100vh;
+  display: flex;
+  background-color: darkgray;
+}
+main {
+  margin: auto;
+  border: 2px solid white;
+  background-color: brown;
+  border-radius: 10px;
+  width: fit-content;
+  padding: 20px;
+  box-shadow: 0px 0px 8px 9px rgba(0, 0, 0, 0.505);
+  justify-content: center;
+}
+input {
+  outline: none;
+  padding: 0.25rem;
+  background-color: rgb(215, 215, 215);
+  border-radius: 5px;
+  border: none;
+}
+#add {
+  background-color: #bebe;
+}
+#del {
+  background-color: crimson;
+}
+button {
+  border-radius: 4px;
+  width: 5rem;
+  padding: 0.3rem;
+  border: 1px solid black;
+  outline: none;
+  text-align: center;
+  &:hover {
+    cursor: pointer;
+    opacity: 0.5;
+    scale: 1.15;
+  }
+}
+ul {
+  list-style: georgian;
+  list-style-position: inside;
+  & li {
+    font-family: "Patrick Hand SC", cursive;
+    font-size: 1.5rem;
+    color: yellow;
+  }
+}

@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+}
+main {
+  height: 100%;
+}
+.square {
+  width: 5rem;
+  height: 5rem;
+}
+.key {
+  width: 4rem;
+  height: 4rem;
+}
+.big-btn {
+  width: 6rem;
+  height: 4rem;
+}
+.keyboard-con {
+  height: 40%;
+}
