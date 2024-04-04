@@ -1,3 +1,3 @@
 # SelfStudy
 
-https://MilesSouth.github.io/SelfStudy/Wordle/ 
+https://selimegeguney.github.io/SelfStudy/Wordle/ 
